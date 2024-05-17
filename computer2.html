@@ -1,0 +1,106 @@
+<!Doctype html>
+
+<html>
+<head>
+<meta name="viewport"content:"width=device-width , initial-scale=1.0">
+<style>
+    body{
+          
+      background-color:#151515;
+      font-family:"Open sans";
+      margin-left: 35px;
+    } 
+    label{
+
+    color:#A91D3A;
+   }
+    input[type="text"]{
+    
+        background-color: #333333; /* Dark background color for the input box */
+        color: #FFFFFF; /* White text color inside the input box */
+        border: 1px solid #A91D3A; /* Border color to match the theme */
+        padding: 5px; /* Some padding for better appearance */
+   } 
+
+    h2 {
+        color: #A91D3A;
+        position: relative;
+        margin-bottom: 20px; /* Adds space below the h2 to accommodate the line */
+    }
+
+    h2::after {
+        content: "";
+        display: block;
+        width: 150px; /* Adjust the width as needed */
+        height: 2px; /* Adjust the height (thickness) as needed */
+        background-color: #A91D3A;
+        position: absolute;
+        bottom: -10px; /* Adjust this value to control the distance from the text */
+        left: 0; /* Aligns the line to the left of the h2 */
+    }
+    h2::before{
+        content: "";
+        display: block;
+        width: 150px; /* Adjust the width as needed */
+        height: 2px; /* Adjust the height (thickness) as needed */
+        background-color: #A91D3A;
+        position: absolute;
+        bottom: 30px; /* Adjust this value to control the distance from the text */
+        left: 0; /* Aligns the line to the left of the h2 */
+        margin-left: 160px;
+        }
+    options{
+    background-color: #333333; /* Dark background color for the input box */
+        color: #FFFFFF; /* White text color inside the input box */
+        border: 1px solid #A91D3A; /* Border color to match the theme */
+        padding: 5px; /* Some padding for better appearance */
+   
+    }
+   
+    
+
+</style>
+<title>
+IT REGISTRATION FORM
+</title>
+    <script>
+        function troll() {
+            // Redirect to the Rickroll video URL
+            window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+        }
+    </script>
+</head>
+
+<body class="body" id="BODY">
+ <h2 style= "color:#A91D3A;">IT REGISTRATION FORM</h2>
+<label style="color:#A91D3A;">Name:</label>
+<br>
+ 
+ <input type=text placeholder=Name>
+  <br>
+  <label class="label">Date of birth:<label>
+<br>
+  <input type=text placeholder="dd-mm-yy" style="margin-bottom:5px;">
+   <br>
+  <label>Gender:</label>
+  <br>
+  <input type=radio name="gender" value="Male" id="Male">
+  <label for="Male">Male</label>
+  <input type=radio name="gender" value="female" id="female">
+  <label for="female">Female</label>
+  <input type=radio name="gender" value="other" id="other">
+  <label for="other">other</label>
+  <br>
+  <label>Section:</label>
+   <select class="Dropdown">
+    <option class="options" value="10A" > 10A </option>
+    <option class="options" value="10B" > 10B </option>
+    <option class="options" value="10C" > 10C </option>
+   </select>
+   <br>
+  <input type="submit" value="Submit" Style="background-color: #333333; /* Dark background color for the input box */
+        color: #A91D3A; /* White text color inside the input box */
+        border: 1px solid #A91D3A; /* Border color to match the theme */
+        padding: 5px; /* Some padding for better appearance */" onclick="troll()">
+  
+</html>
